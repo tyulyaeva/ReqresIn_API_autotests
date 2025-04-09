@@ -10,5 +10,5 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf("Hello, QAGURU_Tyulyaeva!");
 
-        private static String msg = "Hello, QAGURU_Tyulyaeva))))!!!";
+        System.out.printf("Hello, QAGURU_Tyulyaeva_1!");
 }}
