@@ -9,5 +9,6 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.printf(getMessage());
 }
+
 private static String getMessage() { return "Hello, QAGURU_Tyulyaeva!";}
 }
