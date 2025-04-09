@@ -11,4 +11,6 @@ public class Main {
 }
 
 private static String getMessage() { return "Hello, QAGURU_Tyulyaeva!";}
+    }
+    private static String getMessage() { return "Hello, QAGURU_Tyulyaeva!"}
 }
