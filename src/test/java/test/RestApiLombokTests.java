@@ -12,7 +12,6 @@ import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static specs.RestApiSpec.baseResponseSpecification;
 import static specs.RestApiSpec.baseRequestSpecification;
 
-@Tag("REST Assured Tests")
 @DisplayName("Reqres.in тесты")
 public class RestApiLombokTests extends TestBaseApi {
 
