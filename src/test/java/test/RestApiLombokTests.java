@@ -13,7 +13,7 @@ import static specs.RestApiSpec.baseResponseSpecification;
 import static specs.RestApiSpec.baseRequestSpecification;
 
 @Tag("REST Assured Tests")
-
+@DisplayName("Reqres.in тесты")
 public class RestApiLombokTests extends TestBaseApi {
 
     int registeredUserId = 2;
