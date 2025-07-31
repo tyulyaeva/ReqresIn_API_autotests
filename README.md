@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования API сервиса Reqres
 <img  src="media/logo/reqresin.jpg">
 
-## :man_student:: Содержание:
+## Содержание:
 
 - <a href="#tools"> Технологии и инструменты</a>
 - <a href="#checking"> Реализованные проверки</a>
