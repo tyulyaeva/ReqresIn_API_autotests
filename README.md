@@ -56,16 +56,16 @@
 <a id="allureReport"></a>
 ## <img src="media/logo/Allure.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/19/allure/) отчет
 
-### 🖨️ Главная страница отчета
+### Главная страница отчета
 
 <p align="center">
-<img src="media/screens/allure_auto_main.png" alt="Allure report" width="1000" height="400">
+<img src="media/screens/allure_auto_main.png" alt="Allure report" width="1000" height="800">
 </p>
 
 ### Тест-кейсы
 
 <p align="center">
-<img src="media/screens/allure_auto_2.png" alt="Test Case" width="1000" height="400">
+<img src="media/screens/allure_auto_2.png" alt="Test Case" width="1000" height="800">
 </p>
 
 ---
@@ -92,7 +92,7 @@
 ### Задача в Jira
 
 <p align="center">
-<img src="media/screens/jira_main.png" alt="TestOps launch" width="1000" height="400">
+<img src="media/screens/jira_main.png" alt="TestOps launch" width="1000" height="800">
 </p>
 
 #### Содержание задачи
@@ -112,17 +112,17 @@
 ### Уведомление из переписки с чат ботом
 
 <p align="center">
-<img src="media/screens/telegram_main.png" alt="TestOps launch" width="500" height="400">
+<img src="media/screens/telegram_main.png" alt="TestOps launch" width="500" height="500">
 </p>
 
 
 #### Содержание уведомления в Telegram
 
-- :heavy_check_mark: Окружение
-- :heavy_check_mark: Комментарий
-- :heavy_check_mark: Длительность прохождения тестов
-- :heavy_check_mark: Общее количество сценариев
-- :heavy_check_mark: Процент прохождения тестов
-- :heavy_check_mark: Ссылка на Allure отчет
+- Окружение
+- Комментарий
+- Длительность прохождения тестов
+- Общее количество сценариев
+- Процент прохождения тестов
+- Ссылка на Allure отчет
 
 ---
