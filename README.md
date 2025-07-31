@@ -14,7 +14,7 @@
 ---
 
 <a id="tools"></a>
-## 🔨 Технологии и инструменты:
+## Технологии и инструменты:
 
 
 | Java                                                                                                    | IntelliJ  <br>  Idea                                                                                              | GitHub                                                                                                    | JUnit 5                                                                                                          | Gradle                                                                                                    | Rest Assured                                                                                                        | Allure <br> Report                                                                                                        | Jenkins                                                                                                         | Jira                                                                                                                                   | Telegram                                                                                                           |                                                                                               Allure <br> TestOps |
@@ -27,7 +27,7 @@
 ---
 
 <a id="checking"></a>
-## :male_detective:: Реализованные проверки
+## Реализованные проверки
 
 - ✓ Поиск зарегистрированного пользователя
 - ✓ Создание нового пользователя
@@ -62,7 +62,7 @@
 <img src="media/screens/allure_auto_main.png" alt="Allure report" width="1000" height="400">
 </p>
 
-### 📄 Тест-кейсы
+### Тест-кейсы
 
 <p align="center">
 <img src="media/screens/allure_auto_2.png" alt="Test Case" width="1000" height="400">
@@ -72,13 +72,13 @@
 <a id="allure"></a>
 ## <img alt="Allure_TO" height="25" src="media/logo/AllureTestOps.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4844/dashboards">Allure TestOps</a>
 На *Dashboard* в <code>Allure TestOps</code> видна статистика количества тестов. Новые тесты, а так же результаты прогона приходят по интеграции при каждом запуске сборки.
-## 🖨️ Основная страница отчёта
+## Основная страница отчёта
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="media/screens/allure_to_main.png" width="850">  
 </p>  
 
-## :pinching_hand:: Пример тест-кейса
+## Пример тест-кейса
 <p align="center">
 <img title="AllureTC" src="media/screens/allure_to_manual.png">
 </p>
