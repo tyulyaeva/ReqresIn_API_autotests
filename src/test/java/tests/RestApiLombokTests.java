@@ -1,5 +1,6 @@
 package tests;
 
+import io.qameta.allure.*;
 import models.lombok.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
@@ -19,6 +20,10 @@ public class RestApiLombokTests extends TestBaseApi {
     int newRegisteredUserId = 713;
     public String getUserEmail = "janet.weaver@reqres.in";
 
+    @Feature("Reqres.in тесты: Поиск зарегистрированного пользователя")
+    @Story("Тестирование формы сайта: Reqres.in")
+    @Owner("inna_tyulyaeva")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
     @Tag("rest_api")
     @DisplayName("1. Поиск зарегистрированного пользователя: Get - Single user")
@@ -37,6 +42,10 @@ public class RestApiLombokTests extends TestBaseApi {
         });
     }
 
+    @Feature("Reqres.in тесты: Регистрация нового пользователя")
+    @Story("Тестирование формы сайта: Reqres.in")
+    @Owner("inna_tyulyaeva")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
     @Tag("rest_api")
     @DisplayName("2. Регистрация нового пользователя: Post - Create")
@@ -58,6 +67,10 @@ public class RestApiLombokTests extends TestBaseApi {
         });
     }
 
+    @Feature("Reqres.in тесты: Удаление зарегистрированного пользователя")
+    @Story("Тестирование формы сайта: Reqres.in")
+    @Owner("inna_tyulyaeva")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
     @Tag("rest_api")
     @DisplayName("3. Удаление зарегистрированного пользователя:  Delete  -  Delete")
@@ -74,6 +87,10 @@ public class RestApiLombokTests extends TestBaseApi {
         });
     }
 
+    @Feature("Reqres.in тесты: Регистрация пользователя")
+    @Story("Тестирование формы сайта: Reqres.in")
+    @Owner("inna_tyulyaeva")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
     @Tag("rest_api")
     @DisplayName("4. Регистрация пользователя: Post - Register - successful ")
@@ -94,6 +111,10 @@ public class RestApiLombokTests extends TestBaseApi {
         });
     }
 
+    @Feature("Reqres.in тесты: Авторизация пользователя")
+    @Story("Тестирование формы сайта: Reqres.in")
+    @Owner("inna_tyulyaeva")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
     @Tag("rest_api")
     @DisplayName("5. Авторизация пользователя: Post - Login - successful")
@@ -113,6 +134,10 @@ public class RestApiLombokTests extends TestBaseApi {
         });
     }
 
+    @Feature("Reqres.in тесты: Обновление значений параметров зарегистрированного пользователя")
+    @Story("Тестирование формы сайта: Reqres.in")
+    @Owner("inna_tyulyaeva")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
     @Tag("rest_api")
     @DisplayName("6. Обновление значений параметров зарегистрированного пользователя: Put - Update")
@@ -133,6 +158,10 @@ public class RestApiLombokTests extends TestBaseApi {
         });
     }
 
+    @Feature("Reqres.in тесты: Обновление значений параметров зарегистрированного пользователя")
+    @Story("Тестирование формы сайта: Reqres.in")
+    @Owner("inna_tyulyaeva")
+    @Severity(SeverityLevel.BLOCKER)
     @Test
     @Tag("rest_api")
     @DisplayName("7. Обновление значений параметров зарегистрированного пользователя: Patch - Update")
