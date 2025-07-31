@@ -1,4 +1,4 @@
-package test;
+package tests;
 
 import models.lombok.*;
 import org.junit.jupiter.api.DisplayName;
