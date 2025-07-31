@@ -29,13 +29,13 @@
 <a id="checking"></a>
 ## :male_detective:: Реализованные проверки
 
-- ✓ Проверка валидации пароля
-- ✓ Проверка наличия выбранного email
-- ✓ Проверка наличия выбранного наименования цвета
-- ✓ Проверка данных пользователя
+- ✓ Поиск зарегистрированного пользователя
 - ✓ Создание нового пользователя
-- ✓ Проверка отсутствия ресурса
-- ✓ Удаление данных
+- ✓ Удаление зарегистрированного пользователя
+- ✓ Регистрация пользователя
+- ✓ Авторизация пользователя
+- ✓ Обновление значений параметров зарегистрированного пользователя: Put
+- ✓ Обновление значений параметров зарегистрированного пользователя: Patch
 
 
 <a id="console"></a>
@@ -45,7 +45,7 @@
 ---
 
 <a id="jenkins"></a>
-## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/021-Melnikov_A-Reqres_autotests/"> Jenkins </a>
+## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/"> Jenkins </a>
 Для запуска сборки необходимо перейти в раздел <code>Собрать с параметрами</code>, выбрать необходимые параметры и нажать кнопку <code>Собрать</code>.
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/"><img src="media/screens/jenkins_main.png" alt="Jenkins1"/></a>
