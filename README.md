@@ -48,13 +48,13 @@
 ## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/021-Melnikov_A-Reqres_autotests/"> Jenkins </a>
 Для запуска сборки необходимо перейти в раздел <code>Собрать с параметрами</code>, выбрать необходимые параметры и нажать кнопку <code>Собрать</code>.
 <p align="center">
-<a href="https://https://jenkins.autotests.cloud/job/021-Melnikov_A-Reqres_autotests/"><img src="media/screens/jenkins_main.png" alt="Jenkins1"/></a>
+<a href="https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/"><img src="media/screens/jenkins_main.png" alt="Jenkins1"/></a>
 </p>
 После выполнения сборки, в блоке История сборок напротив номера сборки появятся значки Allure Report и Allure TestOps, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
 
 ---
 <a id="allureReport"></a>
-## <img src="media/logo/Allure.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/Melnikov_A-Beeline_autotests/61/allure/) отчет
+## <img src="media/logo/Allure.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/19/allure/) отчет
 
 ### 🖨️ Главная страница отчета
 
@@ -70,7 +70,7 @@
 
 ---
 <a id="allure"></a>
-## <img alt="Allure_TO" height="25" src="media/logo/AllureTestOps.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://https://allure.autotests.cloud/project/3810/dashboards">Allure TestOps</a>
+## <img alt="Allure_TO" height="25" src="media/logo/AllureTestOps.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4844/dashboards">Allure TestOps</a>
 На *Dashboard* в <code>Allure TestOps</code> видна статистика количества тестов. Новые тесты, а так же результаты прогона приходят по интеграции при каждом запуске сборки.
 ## 🖨️ Основная страница отчёта
 
@@ -86,7 +86,7 @@
 ---
 
 <a id="jira"></a>
-## <img src="media/logo/Jira.svg" width="25" height="25"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-966)
+## <img src="media/logo/Jira.svg" width="25" height="25"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1480)
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 ### Задача в Jira
@@ -105,7 +105,7 @@
 ---
 
 <a id="tg"></a>
-## <img src="media/logo/Telegram.svg" width="25" height="25"/> Уведомления в Telegram чат с ботом
+## <img src="media/logo/Telegram.svg" width="25" height="35"/> Уведомления в Telegram чат с ботом
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
