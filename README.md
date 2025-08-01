@@ -1,7 +1,7 @@
 # Проект по автоматизации тестирования API сервиса Reqres
 <img  src="media/logo/reqresin.jpg">
 
-## :man_student:: Содержание:
+## Содержание:
 
 - <a href="#tools"> Технологии и инструменты</a>
 - <a href="#checking"> Реализованные проверки</a>
@@ -12,9 +12,8 @@
 - <a href="#jira"> Интеграция с Jira</a>  
 - <a href="#tg"> Уведомления в Telegram с использованием бота</a>
 ---
-
 <a id="tools"></a>
-## 🔨 Технологии и инструменты:
+## Технологии и инструменты:
 
 
 | Java                                                                                                    | IntelliJ  <br>  Idea                                                                                              | GitHub                                                                                                    | JUnit 5                                                                                                          | Gradle                                                                                                    | Rest Assured                                                                                                        | Allure <br> Report                                                                                                        | Jenkins                                                                                                         | Jira                                                                                                                                   | Telegram                                                                                                           |                                                                                               Allure <br> TestOps |
@@ -27,15 +26,15 @@
 ---
 
 <a id="checking"></a>
-## :male_detective:: Реализованные проверки
+## Реализованные проверки
 
-- ✓ Проверка валидации пароля
-- ✓ Проверка наличия выбранного email
-- ✓ Проверка наличия выбранного наименования цвета
-- ✓ Проверка данных пользователя
-- ✓ Создание нового пользователя
-- ✓ Проверка отсутствия ресурса
-- ✓ Удаление данных
+- Поиск зарегистрированного пользователя
+- Создание нового пользователя
+- Удаление зарегистрированного пользователя
+- Регистрация пользователя
+- Авторизация пользователя
+- Обновление значений параметров зарегистрированного пользователя: Put
+- Обновление значений параметров зарегистрированного пользователя: Patch
 
 
 <a id="console"></a>
@@ -45,40 +44,40 @@
 ---
 
 <a id="jenkins"></a>
-## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/021-Melnikov_A-Reqres_autotests/"> Jenkins </a>
+## <img src="media/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Сборка в <a target="_blank" href="https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/"> Jenkins </a>
 Для запуска сборки необходимо перейти в раздел <code>Собрать с параметрами</code>, выбрать необходимые параметры и нажать кнопку <code>Собрать</code>.
 <p align="center">
-<a href="https://https://jenkins.autotests.cloud/job/021-Melnikov_A-Reqres_autotests/"><img src="media/screens/jenkins_main.png" alt="Jenkins1"/></a>
+<a href="https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/"><img src="media/screens/jenkins_main.png" alt="Jenkins1"/></a>
 </p>
 После выполнения сборки, в блоке История сборок напротив номера сборки появятся значки Allure Report и Allure TestOps, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
 
 ---
 <a id="allureReport"></a>
-## <img src="media/logo/Allure.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/Melnikov_A-Beeline_autotests/61/allure/) отчет
+## <img src="media/logo/Allure.svg" width="25" height="25"/> [Allure](https://jenkins.autotests.cloud/job/ReqresIn_API_autotests/19/allure/) отчет
 
-### 🖨️ Главная страница отчета
+### Главная страница отчета
 
 <p align="center">
-<img src="media/screens/allure_auto_main.png" alt="Allure report" width="1000" height="400">
+<img src="media/screens/allure_auto_main.png" alt="Allure report" width="1000" height="800">
 </p>
 
-### 📄 Тест-кейсы
+### Тест-кейсы
 
 <p align="center">
-<img src="media/screens/allure_auto_2.png" alt="Test Case" width="1000" height="400">
+<img src="media/screens/allure_auto_2.png" alt="Test Case" width="1000" height="800">
 </p>
 
 ---
 <a id="allure"></a>
-## <img alt="Allure_TO" height="25" src="media/logo/AllureTestOps.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://https://allure.autotests.cloud/project/3810/dashboards">Allure TestOps</a>
+## <img alt="Allure_TO" height="25" src="media/logo/AllureTestOps.svg" width="25"/> </a>Интеграция с <a target="_blank" href="https://allure.autotests.cloud/project/4844/dashboards">Allure TestOps</a>
 На *Dashboard* в <code>Allure TestOps</code> видна статистика количества тестов. Новые тесты, а так же результаты прогона приходят по интеграции при каждом запуске сборки.
-## 🖨️ Основная страница отчёта
+## Основная страница отчёта
 
 <p align="center">  
 <img title="Allure TestOps Dashboard" src="media/screens/allure_to_main.png" width="850">  
 </p>  
 
-## :pinching_hand:: Пример тест-кейса
+## Пример тест-кейса
 <p align="center">
 <img title="AllureTC" src="media/screens/allure_to_manual.png">
 </p>
@@ -86,13 +85,13 @@
 ---
 
 <a id="jira"></a>
-## <img src="media/logo/Jira.svg" width="25" height="25"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-966)
+## <img src="media/logo/Jira.svg" width="25" height="25"/> Интеграция с [Jira](https://jira.autotests.cloud/browse/HOMEWORK-1480)
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 ### Задача в Jira
 
 <p align="center">
-<img src="media/screens/jira_main.png" alt="TestOps launch" width="1000" height="400">
+<img src="media/screens/jira_main.png" alt="TestOps launch" width="1000" height="800">
 </p>
 
 #### Содержание задачи
@@ -105,24 +104,24 @@
 ---
 
 <a id="tg"></a>
-## <img src="media/logo/Telegram.svg" width="25" height="25"/> Уведомления в Telegram чат с ботом
+## <img src="media/logo/Telegram.svg" width="25" height="35"/> Уведомления в Telegram чат с ботом
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 ### Уведомление из переписки с чат ботом
 
 <p align="center">
-<img src="media/screens/telegram_main.png" alt="TestOps launch" width="500" height="400">
+<img src="media/screens/telegram_main.png" alt="TestOps launch" width="500" height="500">
 </p>
 
 
 #### Содержание уведомления в Telegram
 
-- :heavy_check_mark: Окружение
-- :heavy_check_mark: Комментарий
-- :heavy_check_mark: Длительность прохождения тестов
-- :heavy_check_mark: Общее количество сценариев
-- :heavy_check_mark: Процент прохождения тестов
-- :heavy_check_mark: Ссылка на Allure отчет
+- Окружение
+- Комментарий
+- Длительность прохождения тестов
+- Общее количество сценариев
+- Процент прохождения тестов
+- Ссылка на Allure отчет
 
 ---
