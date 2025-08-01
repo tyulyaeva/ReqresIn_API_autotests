@@ -141,7 +141,6 @@ public class RestApiLombokTests extends TestBaseApi {
     @Test
     @Tag("rest_api")
     @DisplayName("6. Обновление значений параметров зарегистрированного пользователя: Put - Update")
-//    @JiraIssue
     void updatingUsersInfoTest() {
         DataBodyLombokModel bodyDate = new DataBodyLombokModel("Inna Tyulyaeva_1", "1990", "QA_1");
         DataResponseModel response = step("Запрос на обновление значений параметров зарегистрированного пользователя", () ->
