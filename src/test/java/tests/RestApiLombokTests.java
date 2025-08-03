@@ -119,7 +119,7 @@ public class RestApiLombokTests extends TestBaseApi {
     @Tag("rest_api")
     @DisplayName("5. Авторизация пользователя: Post - Login - successful")
     void postLoginSuccessfulUserTest() {
-        LoginBodyModel authData = new LoginBodyModel(userEmail,userPassLogin);
+        LoginBodyModel authData = new LoginBodyModel(userEmail, userPassLogin);
         LoginResponseModel response = step("Запрос на авторизацию зарегистрированного пользователя", () ->
                 given(baseRequestSpecification)
                         .body(authData)
@@ -128,9 +128,9 @@ public class RestApiLombokTests extends TestBaseApi {
                         .then()
                         .spec(baseResponseSpecification(200))
                         .extract().as(LoginResponseModel.class));
-        step("Проверка запроса", () ->{
-                assertNotEquals(null,response.getToken());
-                assertEquals("QpwL5tke4Pnpja7X4", response.getToken());
+        step("Проверка запроса", () -> {
+            assertNotEquals(null, response.getToken());
+            assertEquals("QpwL5tke4Pnpja7X4", response.getToken());
         });
     }
 
@@ -166,7 +166,7 @@ public class RestApiLombokTests extends TestBaseApi {
     @Tag("rest_api")
     @DisplayName("7. Обновление значений параметров зарегистрированного пользователя: Patch - Update")
     void patchingUsersJobTest() {
-        DataBodyLombokModel bodyDate = new DataBodyLombokModel("","1992","");
+        DataBodyLombokModel bodyDate = new DataBodyLombokModel("", "1992", "");
         DataResponseModel response = step("Запрос на обновление значений параметров зарегистрированного пользователя", () ->
                 given(baseRequestSpecification)
                         .body(bodyDate)
