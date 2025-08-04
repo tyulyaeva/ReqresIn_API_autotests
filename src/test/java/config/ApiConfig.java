@@ -11,4 +11,12 @@ public interface ApiConfig extends Config {
     @Key("basePath")
     @DefaultValue("/api")
     String basePath();
+
+    @Key("userEmail")
+    @DefaultValue("${userEmail}")
+    String userEmail();
+
+    @Key("userPassLogin")
+    @DefaultValue("${userPassLogin}")
+    String userPassLogin();
 }
